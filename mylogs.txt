@@ -1,0 +1,441 @@
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:compileDebugAidl UP-TO-DATE
+:app:compileDebugRenderscript UP-TO-DATE
+:app:checkDebugManifest UP-TO-DATE
+:app:generateDebugBuildConfig UP-TO-DATE
+:app:prepareLintJar UP-TO-DATE
+:app:mainApkListPersistenceDebug UP-TO-DATE
+:app:generateDebugResValues UP-TO-DATE
+:app:generateDebugResources UP-TO-DATE
+:app:mergeDebugResources UP-TO-DATE
+:app:createDebugCompatibleScreenManifests UP-TO-DATE
+:app:processDebugManifest UP-TO-DATE
+:app:splitsDiscoveryTaskDebug UP-TO-DATE
+:app:processDebugResources UP-TO-DATE
+:app:generateDebugSources UP-TO-DATE
+:app:javaPreCompileDebug UP-TO-DATE
+:app:compileDebugJavaWithJavac UP-TO-DATE
+:app:generateJsonModelDebug
+External native generate JSON debug: starting JSON generation
+External native generate JSON debug: using platform version 24 for ABI ARMEABI_V7A and min SDK version 25
+External native generate JSON debug: rebuilding JSON E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\armeabi-v7a\android_gradle_build.json due to:
+External native generate JSON debug: - expected json E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\armeabi-v7a\android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON debug: - missing previous command file E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\armeabi-v7a\cmake_build_command.txt, will remove stale json folder
+External native generate JSON debug: removing stale contents from 'E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\armeabi-v7a'
+External native generate JSON debug: created folder 'E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\armeabi-v7a'
+External native generate JSON debug: executing cmake Executable : D:\ASDK\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HE:\HwAR\MyApplication2\app
+-BE:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\armeabi-v7a
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_PLATFORM=android-24
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\HwAR\MyApplication2\app\build\intermediates\cmake\debug\obj\armeabi-v7a
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=D:\ASDK\ndk-bundle
+-DCMAKE_CXX_FLAGS=
+-DCMAKE_TOOLCHAIN_FILE=D:\ASDK\ndk-bundle\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=D:\ASDK\cmake\3.6.4111459\bin\ninja.exe
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+-- Check for working C compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
+-- Check for working C compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe
+-- Check for working CXX compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/HwAR/MyApplication2/app/.externalNativeBuild/cmake/debug/armeabi-v7a
+External native generate JSON debug: done executing cmake
+External native generate JSON debug: write build output E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\armeabi-v7a\cmake_build_output.txt
+External native generate JSON debug: write command file E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\armeabi-v7a\cmake_build_command.txt
+External native generate JSON debug: using platform version 24 for ABI ARM64_V8A and min SDK version 25
+External native generate JSON debug: rebuilding JSON E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\arm64-v8a\android_gradle_build.json due to:
+External native generate JSON debug: - expected json E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\arm64-v8a\android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON debug: - missing previous command file E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\arm64-v8a\cmake_build_command.txt, will remove stale json folder
+External native generate JSON debug: removing stale contents from 'E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\arm64-v8a'
+External native generate JSON debug: created folder 'E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\arm64-v8a'
+External native generate JSON debug: executing cmake Executable : D:\ASDK\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HE:\HwAR\MyApplication2\app
+-BE:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\arm64-v8a
+-DANDROID_ABI=arm64-v8a
+-DANDROID_PLATFORM=android-24
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\HwAR\MyApplication2\app\build\intermediates\cmake\debug\obj\arm64-v8a
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=D:\ASDK\ndk-bundle
+-DCMAKE_CXX_FLAGS=
+-DCMAKE_TOOLCHAIN_FILE=D:\ASDK\ndk-bundle\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=D:\ASDK\cmake\3.6.4111459\bin\ninja.exe
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+-- Check for working C compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
+-- Check for working C compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe
+-- Check for working CXX compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/HwAR/MyApplication2/app/.externalNativeBuild/cmake/debug/arm64-v8a
+External native generate JSON debug: done executing cmake
+External native generate JSON debug: write build output E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\arm64-v8a\cmake_build_output.txt
+External native generate JSON debug: write command file E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\arm64-v8a\cmake_build_command.txt
+External native generate JSON debug: using platform version 24 for ABI X86 and min SDK version 25
+External native generate JSON debug: rebuilding JSON E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\x86\android_gradle_build.json due to:
+External native generate JSON debug: - expected json E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\x86\android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON debug: - missing previous command file E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\x86\cmake_build_command.txt, will remove stale json folder
+External native generate JSON debug: removing stale contents from 'E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\x86'
+External native generate JSON debug: created folder 'E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\x86'
+External native generate JSON debug: executing cmake Executable : D:\ASDK\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HE:\HwAR\MyApplication2\app
+-BE:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\x86
+-DANDROID_ABI=x86
+-DANDROID_PLATFORM=android-24
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\HwAR\MyApplication2\app\build\intermediates\cmake\debug\obj\x86
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=D:\ASDK\ndk-bundle
+-DCMAKE_CXX_FLAGS=
+-DCMAKE_TOOLCHAIN_FILE=D:\ASDK\ndk-bundle\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=D:\ASDK\cmake\3.6.4111459\bin\ninja.exe
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+-- Check for working C compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
+-- Check for working C compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe
+-- Check for working CXX compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/HwAR/MyApplication2/app/.externalNativeBuild/cmake/debug/x86
+External native generate JSON debug: done executing cmake
+External native generate JSON debug: write build output E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\x86\cmake_build_output.txt
+External native generate JSON debug: write command file E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\x86\cmake_build_command.txt
+External native generate JSON debug: using platform version 24 for ABI X86_64 and min SDK version 25
+External native generate JSON debug: rebuilding JSON E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\x86_64\android_gradle_build.json due to:
+External native generate JSON debug: - expected json E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\x86_64\android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON debug: - missing previous command file E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\x86_64\cmake_build_command.txt, will remove stale json folder
+External native generate JSON debug: removing stale contents from 'E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\x86_64'
+External native generate JSON debug: created folder 'E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\x86_64'
+External native generate JSON debug: executing cmake Executable : D:\ASDK\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HE:\HwAR\MyApplication2\app
+-BE:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\x86_64
+-DANDROID_ABI=x86_64
+-DANDROID_PLATFORM=android-24
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\HwAR\MyApplication2\app\build\intermediates\cmake\debug\obj\x86_64
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=D:\ASDK\ndk-bundle
+-DCMAKE_CXX_FLAGS=
+-DCMAKE_TOOLCHAIN_FILE=D:\ASDK\ndk-bundle\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=D:\ASDK\cmake\3.6.4111459\bin\ninja.exe
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+-- Check for working C compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
+-- Check for working C compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe
+-- Check for working CXX compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/HwAR/MyApplication2/app/.externalNativeBuild/cmake/debug/x86_64
+External native generate JSON debug: done executing cmake
+External native generate JSON debug: write build output E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\x86_64\cmake_build_output.txt
+External native generate JSON debug: write command file E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\debug\x86_64\cmake_build_command.txt
+External native generate JSON debug: JSON generation completed without problems
+:app:externalNativeBuildDebug
+Build native-lib x86_64
+[1/2] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o
+[2/2] Linking CXX shared library ..\..\..\..\build\intermediates\cmake\debug\obj\x86_64\libnative-lib.so
+Build native-lib x86
+[1/2] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o
+[2/2] Linking CXX shared library ..\..\..\..\build\intermediates\cmake\debug\obj\x86\libnative-lib.so
+Build native-lib arm64-v8a
+[1/2] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o
+[2/2] Linking CXX shared library ..\..\..\..\build\intermediates\cmake\debug\obj\arm64-v8a\libnative-lib.so
+Build native-lib armeabi-v7a
+[1/2] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o
+[2/2] Linking CXX shared library ..\..\..\..\build\intermediates\cmake\debug\obj\armeabi-v7a\libnative-lib.so
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:preReleaseBuild
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:generateJsonModelRelease
+External native generate JSON release: starting JSON generation
+External native generate JSON release: using platform version 24 for ABI ARMEABI_V7A and min SDK version 25
+External native generate JSON release: rebuilding JSON E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\armeabi-v7a\android_gradle_build.json due to:
+External native generate JSON release: - expected json E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\armeabi-v7a\android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON release: - missing previous command file E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\armeabi-v7a\cmake_build_command.txt, will remove stale json folder
+External native generate JSON release: removing stale contents from 'E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\armeabi-v7a'
+External native generate JSON release: created folder 'E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\armeabi-v7a'
+External native generate JSON release: executing cmake Executable : D:\ASDK\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HE:\HwAR\MyApplication2\app
+-BE:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\armeabi-v7a
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_PLATFORM=android-24
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\HwAR\MyApplication2\app\build\intermediates\cmake\release\obj\armeabi-v7a
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=D:\ASDK\ndk-bundle
+-DCMAKE_CXX_FLAGS=
+-DCMAKE_TOOLCHAIN_FILE=D:\ASDK\ndk-bundle\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=D:\ASDK\cmake\3.6.4111459\bin\ninja.exe
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+-- Check for working C compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
+-- Check for working C compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe
+-- Check for working CXX compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/HwAR/MyApplication2/app/.externalNativeBuild/cmake/release/armeabi-v7a
+External native generate JSON release: done executing cmake
+External native generate JSON release: write build output E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\armeabi-v7a\cmake_build_output.txt
+External native generate JSON release: write command file E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\armeabi-v7a\cmake_build_command.txt
+External native generate JSON release: using platform version 24 for ABI ARM64_V8A and min SDK version 25
+External native generate JSON release: rebuilding JSON E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\arm64-v8a\android_gradle_build.json due to:
+External native generate JSON release: - expected json E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\arm64-v8a\android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON release: - missing previous command file E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\arm64-v8a\cmake_build_command.txt, will remove stale json folder
+External native generate JSON release: removing stale contents from 'E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\arm64-v8a'
+External native generate JSON release: created folder 'E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\arm64-v8a'
+External native generate JSON release: executing cmake Executable : D:\ASDK\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HE:\HwAR\MyApplication2\app
+-BE:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\arm64-v8a
+-DANDROID_ABI=arm64-v8a
+-DANDROID_PLATFORM=android-24
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\HwAR\MyApplication2\app\build\intermediates\cmake\release\obj\arm64-v8a
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=D:\ASDK\ndk-bundle
+-DCMAKE_CXX_FLAGS=
+-DCMAKE_TOOLCHAIN_FILE=D:\ASDK\ndk-bundle\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=D:\ASDK\cmake\3.6.4111459\bin\ninja.exe
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+-- Check for working C compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
+-- Check for working C compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe
+-- Check for working CXX compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/HwAR/MyApplication2/app/.externalNativeBuild/cmake/release/arm64-v8a
+External native generate JSON release: done executing cmake
+External native generate JSON release: write build output E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\arm64-v8a\cmake_build_output.txt
+External native generate JSON release: write command file E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\arm64-v8a\cmake_build_command.txt
+External native generate JSON release: using platform version 24 for ABI X86 and min SDK version 25
+External native generate JSON release: rebuilding JSON E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\x86\android_gradle_build.json due to:
+External native generate JSON release: - expected json E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\x86\android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON release: - missing previous command file E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\x86\cmake_build_command.txt, will remove stale json folder
+External native generate JSON release: removing stale contents from 'E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\x86'
+External native generate JSON release: created folder 'E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\x86'
+External native generate JSON release: executing cmake Executable : D:\ASDK\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HE:\HwAR\MyApplication2\app
+-BE:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\x86
+-DANDROID_ABI=x86
+-DANDROID_PLATFORM=android-24
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\HwAR\MyApplication2\app\build\intermediates\cmake\release\obj\x86
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=D:\ASDK\ndk-bundle
+-DCMAKE_CXX_FLAGS=
+-DCMAKE_TOOLCHAIN_FILE=D:\ASDK\ndk-bundle\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=D:\ASDK\cmake\3.6.4111459\bin\ninja.exe
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+-- Check for working C compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
+-- Check for working C compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe
+-- Check for working CXX compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/HwAR/MyApplication2/app/.externalNativeBuild/cmake/release/x86
+External native generate JSON release: done executing cmake
+External native generate JSON release: write build output E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\x86\cmake_build_output.txt
+External native generate JSON release: write command file E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\x86\cmake_build_command.txt
+External native generate JSON release: using platform version 24 for ABI X86_64 and min SDK version 25
+External native generate JSON release: rebuilding JSON E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\x86_64\android_gradle_build.json due to:
+External native generate JSON release: - expected json E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\x86_64\android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON release: - missing previous command file E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\x86_64\cmake_build_command.txt, will remove stale json folder
+External native generate JSON release: removing stale contents from 'E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\x86_64'
+External native generate JSON release: created folder 'E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\x86_64'
+External native generate JSON release: executing cmake Executable : D:\ASDK\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HE:\HwAR\MyApplication2\app
+-BE:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\x86_64
+-DANDROID_ABI=x86_64
+-DANDROID_PLATFORM=android-24
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\HwAR\MyApplication2\app\build\intermediates\cmake\release\obj\x86_64
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=D:\ASDK\ndk-bundle
+-DCMAKE_CXX_FLAGS=
+-DCMAKE_TOOLCHAIN_FILE=D:\ASDK\ndk-bundle\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=D:\ASDK\cmake\3.6.4111459\bin\ninja.exe
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+-- Check for working C compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
+-- Check for working C compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe
+-- Check for working CXX compiler: D:/ASDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/HwAR/MyApplication2/app/.externalNativeBuild/cmake/release/x86_64
+External native generate JSON release: done executing cmake
+External native generate JSON release: write build output E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\x86_64\cmake_build_output.txt
+External native generate JSON release: write command file E:\HwAR\MyApplication2\app\.externalNativeBuild\cmake\release\x86_64\cmake_build_command.txt
+External native generate JSON release: JSON generation completed without problems
+:app:externalNativeBuildRelease
+Build native-lib x86_64
+[1/2] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o
+[2/2] Linking CXX shared library ..\..\..\..\build\intermediates\cmake\release\obj\x86_64\libnative-lib.so
+Build native-lib x86
+[1/2] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o
+[2/2] Linking CXX shared library ..\..\..\..\build\intermediates\cmake\release\obj\x86\libnative-lib.so
+Build native-lib arm64-v8a
+[1/2] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o
+[2/2] Linking CXX shared library ..\..\..\..\build\intermediates\cmake\release\obj\arm64-v8a\libnative-lib.so
+Build native-lib armeabi-v7a
+[1/2] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o
+[2/2] Linking CXX shared library ..\..\..\..\build\intermediates\cmake\release\obj\armeabi-v7a\libnative-lib.so
+:app:compileReleaseSources
+:app:lintVitalRelease SKIPPED
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:lint
+Ran lint on variant debug: 3 issues found
+Ran lint on variant release: 3 issues found
+Wrote HTML report to file:///E:/HwAR/MyApplication2/app/build/reports/lint-results.html
+Wrote XML report to file:///E:/HwAR/MyApplication2/app/build/reports/lint-results.xml
+:app:preDebugUnitTestBuild UP-TO-DATE
+:app:javaPreCompileDebugUnitTest
+:app:compileDebugUnitTestJavaWithJavac
+:app:mockableAndroidJar
+:app:processDebugUnitTestJavaRes NO-SOURCE
+:app:testDebugUnitTest
+:app:preReleaseUnitTestBuild UP-TO-DATE
+:app:javaPreCompileReleaseUnitTest
+:app:compileReleaseUnitTestJavaWithJavac
+:app:processReleaseUnitTestJavaRes NO-SOURCE
+:app:testReleaseUnitTest
+:app:test
+:app:check
+:app:build
+
+BUILD SUCCESSFUL in 4m 3s
+64 actionable tasks: 49 executed, 15 up-to-date

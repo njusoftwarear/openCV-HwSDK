@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="btn_choose">选择</string>
+    <string name="btn_deals">处理</string>
+</resources>
